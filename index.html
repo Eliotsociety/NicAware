@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nicotine Effects - Awareness Portal</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Shader Background Container -->
+  <div id="container"></div>
+
+  <!-- Foreground Content -->
+  <div class="overlay">
+    <nav class="main-nav">
+      <div class="nav-logo">
+        <i class="fas fa-skull-crossbones"></i>
+        <span>NicAware</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#addiction">Addiction</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="glitch-text" data-text="Nicotine Effects">Nicotine Effects</h1>
+        <p>Uncovering the Truth Behind the Smoke</p>
+        <div class="hero-buttons">
+          <a href="#blog" class="btn-primary">Explore Blog</a>
+          <a href="#addiction" class="btn-secondary">Addiction Facts</a>
+          <a href="#resources" class="btn-tertiary">Help Resources</a>
+        </div>
+        
+      </div>
+      <div class="hero-visual">
+        <div class="pulse-circle"></div>
+        <div class="smoke-animation"></div>
+      </div>
+    </header>
+
+    <div class="socials">
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <main>
+      <section id="blog" class="section-header">
+        <h2>The Nicotine Blog</h2>
+        <p>Essential information about the silent addiction</p>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+        <div class="card-content">
+          <h2>What is Nicotine?</h2>
+          <p>Nicotine is a naturally occurring alkaloid found in tobacco plants. It's a stimulant drug that speeds up the messages traveling between the brain and body. People consume nicotine through smoking, vaping, or chewing tobacco, often unaware of its addictive grip.</p>
+          <div class="info-badge">
+            <span>Fact</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-brain"></i></div>
+        <div class="card-content">
+          <h2>How Does It Affect the Brain?</h2>
+          <p>Nicotine rapidly enters the bloodstream and crosses the blood-brain barrier, releasing neurotransmitters like dopamine. This results in a temporary feeling of pleasure and alertness, reinforcing the habit over time.</p>
+          <div class="info-graphics">
+            <div class="brain-graphic">
+              <div class="dopamine-burst"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="addiction" class="section-header">
+        <h2>Addiction Mechanics</h2>
+        <p>Understanding the grip of nicotine</p>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-link"></i></div>
+        <div class="card-content">
+          <h2>Addiction Mechanism</h2>
+          <p>Nicotine binds to receptors in the brain, flooding the reward system with dopamine. This creates a cycle of craving and consumption. Over time, tolerance builds, and users need more nicotine to achieve the same effect.</p>
+          <div class="addiction-cycle">
+            <div class="cycle-step">Consumption</div>
+            <div class="cycle-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="cycle-step">Dopamine Release</div>
+            <div class="cycle-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="cycle-step">Temporary Reward</div>
+            <div class="cycle-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="cycle-step">Craving</div>
+            <div class="cycle-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="cycle-step">Withdrawal</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-capsules"></i></div>
+        <div class="card-content">
+          <h2>Gateway to Stronger Substances</h2>
+          <p>Nicotine is often a gateway to stronger stimulants like methamphetamine. Meth works similarly by over-stimulating dopamine release but causes far more severe neurological damage and dependency risks.</p>
+          <div class="danger-meter">
+            <div class="meter-bar" data-level="35">
+              <div class="meter-fill"></div>
+              <span class="meter-label">Nicotine</span>
+            </div>
+            <div class="meter-bar" data-level="90">
+              <div class="meter-fill"></div>
+              <span class="meter-label">Methamphetamine</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-exclamation-triangle"></i></div>
+        <div class="card-content">
+          <h2>Withdrawal Symptoms</h2>
+          <p>Quitting nicotine can trigger anxiety, headaches, irritability, fatigue, and intense cravings. These symptoms can last days to weeks and often lead to relapse without support.</p>
+          <div class="symptoms-timeline">
+            <div class="timeline-point">
+              <div class="point-time">24 Hours</div>
+              <div class="point-symptom">Irritability, Anxiety</div>
+            </div>
+            <div class="timeline-point">
+              <div class="point-time">48 Hours</div>
+              <div class="point-symptom">Headaches, Cravings</div>
+            </div>
+            <div class="timeline-point">
+              <div class="point-time">72 Hours</div>
+              <div class="point-symptom">Improved Breathing</div>
+            </div>
+            <div class="timeline-point">
+              <div class="point-time">2 Weeks</div>
+              <div class="point-symptom">Circulation Improves</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
+        <div class="card-content">
+          <h2>Long-Term Health Risks</h2>
+          <p>Extended nicotine use can result in cardiovascular diseases, increased stroke risk, lung problems, and potentially cancer—especially when combined with tobacco smoke.</p>
+          <div class="health-risks">
+            <div class="risk-item">
+              <i class="fas fa-heart"></i>
+              <span>Heart Disease</span>
+            </div>
+            <div class="risk-item">
+              <i class="fas fa-lungs"></i>
+              <span>Lung Damage</span>
+            </div>
+            <div class="risk-item">
+              <i class="fas fa-brain"></i>
+              <span>Stroke Risk</span>
+            </div>
+            <div class="risk-item">
+              <i class="fas fa-disease"></i>
+              <span>Cancer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section-header">
+        <h2>Help & Resources</h2>
+        <p>Breaking free from nicotine addiction</p>
+      </section>
+
+      <section class="card hidden">
+        <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
+        <div class="card-content">
+          <h2>Getting Help</h2>
+          <p>Breaking free from nicotine addiction requires support, determination, and often medical assistance. Consider these resources:</p>
+          <div class="resources-grid">
+            <div class="resource-item">
+              <i class="fas fa-phone"></i>
+              <h3>Quitlines</h3>
+              <span>Free counseling by phone</span>
+            </div>
+            <div class="resource-item">
+              <i class="fas fa-user-md"></i>
+              <h3>Healthcare Provider</h3>
+              <span>Medical support and medication</span>
+            </div>
+            <div class="resource-item">
+              <i class="fas fa-users"></i>
+              <h3>Support Groups</h3>
+              <span>Community encouragement</span>
+            </div>
+            <div class="resource-item">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Mobile Apps</h3>
+              <span>Track progress and triggers</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card hidden conclusion-card">
+        <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+        <div class="card-content">
+          <h2>Conclusion & Awareness</h2>
+          <p>Understanding nicotine's effect on the brain and body is the first step toward recovery. Whether it's vaping or smoking, breaking free requires willpower, education, and support.</p>
+          <div class="call-to-action">
+            <h3>Share this information</h3>
+            <div class="share-buttons">
+              <button class="share-btn"><i class="fas fa-share-alt"></i> Share</button>
+              <button class="share-btn"><i class="fas fa-download"></i> Download Info</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>NicAware</h3>
+          <p>Raising awareness about nicotine addiction and providing resources for recovery.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#addiction">Addiction</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 NicAware. All rights reserved. 🍃</p>
+        <p>&copy; Zulqurnain WEb Works All rights reserved. 👾</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="script.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
